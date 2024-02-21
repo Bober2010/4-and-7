@@ -1,0 +1,14 @@
+c = input("Пиши число ")
+v = 0
+nv = 0
+x = 0
+while c != "":
+    if int(c) % 2 == 0:
+        v += 1
+    else:
+        nv += 1   
+    c = input("Пиши число ")
+    x += 1
+print("Чётных",v)
+print("Нечётных",nv)
+print("количество",x)

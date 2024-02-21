@@ -1,0 +1,16 @@
+x = 0
+z = 0
+c = 0
+f = open("23feb.txt", "r", encoding="utf-8")
+x = f.readline()
+while len(x) > 0:
+    c += 1
+    z += int(x)
+    print(x.strip())
+    x = f.readline()
+f.close()
+print(f"Средне арифметическое подарков\t:\t{ z  / c }")
+
+
+    
+    
